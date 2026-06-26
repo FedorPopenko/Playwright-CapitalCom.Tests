@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|c:\\users\\popen\\source\\repos\\playwright-capital.com\\capitalcom.tests\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|solutionrelative:capitalcom.tests\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|c:\\users\\popen\\source\\repos\\playwright-capital.com\\capitalcom.tests\\tests\\ourofficestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|solutionrelative:capitalcom.tests\\tests\\ourofficestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|c:\\users\\popen\\source\\repos\\playwright-capital.com\\capitalcom.tests\\tests\\companytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|solutionrelative:capitalcom.tests\\tests\\companytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|c:\\users\\popen\\source\\repos\\playwright-capital.com\\capitalcom.tests\\pages\\about\\who_we_are\\ourofficespage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|solutionrelative:capitalcom.tests\\pages\\about\\who_we_are\\ourofficespage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|c:\\users\\popen\\source\\repos\\playwright-capital.com\\capitalcom.tests\\core\\fixtures\\capitaltestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|solutionrelative:capitalcom.tests\\core\\fixtures\\capitaltestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|c:\\users\\popen\\source\\repos\\playwright-capital.com\\capitalcom.tests\\pages\\loginandsignupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|solutionrelative:capitalcom.tests\\pages\\loginandsignupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|c:\\users\\popen\\source\\repos\\playwright-capital.com\\capitalcom.tests\\pages\\about\\who_we_are\\companypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A486680-F2E5-2421-E801-6C60B446A1C3}|CapitalCom.Tests\\CapitalCom.Tests.csproj|solutionrelative:capitalcom.tests\\pages\\about\\who_we_are\\companypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\.gitignore",
+              "RelativeDocumentMoniker": "CapitalCom.Tests\\.gitignore",
+              "ToolTip": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\.gitignore",
+              "RelativeToolTip": "CapitalCom.Tests\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-26T10:54:55.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompanyTests.cs",
+              "DocumentMoniker": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\Tests\\CompanyTests.cs",
+              "RelativeDocumentMoniker": "CapitalCom.Tests\\Tests\\CompanyTests.cs",
+              "ToolTip": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\Tests\\CompanyTests.cs",
+              "RelativeToolTip": "CapitalCom.Tests\\Tests\\CompanyTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:46:46.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OurOfficesTests.cs",
+              "DocumentMoniker": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\Tests\\OurOfficesTests.cs",
+              "RelativeDocumentMoniker": "CapitalCom.Tests\\Tests\\OurOfficesTests.cs",
+              "ToolTip": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\Tests\\OurOfficesTests.cs",
+              "RelativeToolTip": "CapitalCom.Tests\\Tests\\OurOfficesTests.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:44:37.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OurOfficesPage.cs",
+              "DocumentMoniker": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\Pages\\About\\Who_We_Are\\OurOfficesPage.cs",
+              "RelativeDocumentMoniker": "CapitalCom.Tests\\Pages\\About\\Who_We_Are\\OurOfficesPage.cs",
+              "ToolTip": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\Pages\\About\\Who_We_Are\\OurOfficesPage.cs",
+              "RelativeToolTip": "CapitalCom.Tests\\Pages\\About\\Who_We_Are\\OurOfficesPage.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T10:02:44.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginAndSignUpForm.cs",
+              "DocumentMoniker": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\Pages\\LoginAndSignUpForm.cs",
+              "RelativeDocumentMoniker": "CapitalCom.Tests\\Pages\\LoginAndSignUpForm.cs",
+              "ToolTip": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\Pages\\LoginAndSignUpForm.cs",
+              "RelativeToolTip": "CapitalCom.Tests\\Pages\\LoginAndSignUpForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T12:26:27.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompanyPage.cs",
+              "DocumentMoniker": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\Pages\\About\\Who_We_Are\\CompanyPage.cs",
+              "RelativeDocumentMoniker": "CapitalCom.Tests\\Pages\\About\\Who_We_Are\\CompanyPage.cs",
+              "ToolTip": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\Pages\\About\\Who_We_Are\\CompanyPage.cs",
+              "RelativeToolTip": "CapitalCom.Tests\\Pages\\About\\Who_We_Are\\CompanyPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T13:03:07.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CapitalTestBase.cs",
+              "DocumentMoniker": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\Core\\Fixtures\\CapitalTestBase.cs",
+              "RelativeDocumentMoniker": "CapitalCom.Tests\\Core\\Fixtures\\CapitalTestBase.cs",
+              "ToolTip": "C:\\Users\\popen\\source\\repos\\Playwright-Capital.com\\CapitalCom.Tests\\Core\\Fixtures\\CapitalTestBase.cs",
+              "RelativeToolTip": "CapitalCom.Tests\\Core\\Fixtures\\CapitalTestBase.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T11:27:12.922Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
