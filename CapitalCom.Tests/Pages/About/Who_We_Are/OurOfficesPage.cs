@@ -15,9 +15,12 @@ namespace CapitalCom.Tests.Pages.About.Who_We_Are
         {
             _page = page;
             loginAndSignUpForm = new LoginAndSignUpForm(page);
+            locationForm = new LocationForm(page);
         }
 
         public LoginAndSignUpForm loginAndSignUpForm { get; }
+        public LocationForm locationForm { get; }
+
         public async Task ExpectLoadedOurOfficesPageAsync()
         {
             await Assertions.Expect(_page).ToHaveURLAsync(new Regex(CapitalPagePath.OurOfficesPage));

@@ -1,3 +1,4 @@
+using CapitalCom.Tests.Core.Artifacts;
 using CapitalCom.Tests.Core.Models;
 using CapitalCom.Tests.Pages;
 using Microsoft.Playwright;
@@ -8,6 +9,14 @@ namespace CapitalCom.Tests.Core;
 
 public abstract class CapitalTestBase : PageTest
 {
+    private ArtifactManager? _artifactManager;
+
+    [SetUp]
+    public async Task SetUpAsync()
+    {
+        _artifactManager = new ArtifactManager(Context, Page);
+        await _artifactManager.StartTraceAsync();
+    }
     public override BrowserNewContextOptions ContextOptions()
     {
         var options = base.ContextOptions();
@@ -19,7 +28,7 @@ public abstract class CapitalTestBase : PageTest
         }
 
         options.Locale = CapitalLocaleProvider.GetLocale(context.Language);
-        options.RecordVideoDir = Path.Combine(TestContext.CurrentContext.WorkDirectory, "test-results", "videos"); //для записи падающих тестов
+        options.RecordVideoDir = ArtifactPaths.Videos;
 
         var storageStatePath = StorageStateProvider.GetStorageStatePath(context.UserSessionState);
         if (storageStatePath is not null)
@@ -72,10 +81,26 @@ public abstract class CapitalTestBase : PageTest
         }
     }
 
+    protected static async Task CloseLocationFormIfDisplayedAsync(LocationForm locationForm)
+    {
+
+        await locationForm.CloseIfDisplayedAsync();
+
+    }
+
     private static TestRunContext? GetCurrentRunContext()
     {
         return TestContext.CurrentContext.Test.Arguments
             .OfType<TestRunContext>()
             .SingleOrDefault();
+    }
+
+    [TearDown]
+    public async Task TearDownAsync()
+    {
+        if (_artifactManager is not null)
+        {
+            await _artifactManager.StopTraceAsync();
+        }
     }
 }
