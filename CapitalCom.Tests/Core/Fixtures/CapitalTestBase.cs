@@ -31,13 +31,9 @@ public abstract class CapitalTestBase : PageTest
         options.RecordVideoDir = ArtifactPaths.Videos;
 
         var storageStatePath = StorageStateProvider.GetStorageStatePath(context.UserSessionState);
-        if (storageStatePath is not null)
+        if (storageStatePath is not null && File.Exists(storageStatePath))
         {
-            var absoluteStorageStatePath = Path.Combine(TestContext.CurrentContext.WorkDirectory, storageStatePath);
-            if (File.Exists(absoluteStorageStatePath))
-            {
-                options.StorageStatePath = absoluteStorageStatePath;
-            }
+            options.StorageStatePath = storageStatePath;
         }
 
         return options;

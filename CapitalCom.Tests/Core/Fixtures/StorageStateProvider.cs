@@ -1,3 +1,5 @@
+using CapitalCom.Tests.Core.Fixtures;
+
 namespace CapitalCom.Tests.Core;
 
 public static class StorageStateProvider
@@ -7,8 +9,8 @@ public static class StorageStateProvider
         return userSessionState switch
         {
             UserSessionState.Unregistered => null,
-            UserSessionState.Unauthorized => ".auth/returning-user.json",
-            UserSessionState.Authorized => ".auth/authorized-user.json",
+            UserSessionState.Unauthorized => StorageStatePaths.Unauthorized,
+            UserSessionState.Authorized => StorageStatePaths.Authorized,
             _ => throw new ArgumentOutOfRangeException(nameof(userSessionState), userSessionState, null)
         };
     }

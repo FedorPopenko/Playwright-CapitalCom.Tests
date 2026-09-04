@@ -2,11 +2,11 @@
 
 namespace CapitalCom.Tests.Pages
 {
-    public sealed class ClookieForm
+    public sealed class CookieForm
     {
         private readonly IPage _page;
 
-        public ClookieForm(IPage page)
+        public CookieForm(IPage page)
         {
             _page = page;
         }
@@ -21,17 +21,17 @@ namespace CapitalCom.Tests.Pages
             await Assertions.Expect(CookieBanner).ToBeVisibleAsync();
         }
 
-        public async Task ClickRejectButton()
+        public async Task RejectCookieAsync()
         {
             await RejectButton.ClickAsync();
         }
 
-        public async Task ClickAcceptButton()
+        public async Task AcceptCookieAsync()
         {
             await AcceptButton.ClickAsync();
         }
 
-        public async Task ClickCustomizeButton()
+        public async Task CustomizeCookieAsync()
         {
             await CustomizeButton.ClickAsync();
         }
