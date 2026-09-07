@@ -55,6 +55,8 @@ packages/
 *.tmp
 *.cache
 *.bak
+*.swp
+*.swo
 
 # ==========================
 # OS files
@@ -80,3 +82,4 @@ coverage.xml
 # ==========================
 .auth/*.json
 !.auth/.gitkeep
+BrowserProfile/
