@@ -31,6 +31,14 @@ namespace CapitalCom.Tests.Pages
             await AcceptButton.ClickAsync();
         }
 
+        public async Task AcceptIfDisplayedAsync()
+        {
+            if (await AcceptButton.IsVisibleAsync())
+            {
+                await AcceptButton.ClickAsync();
+            }
+        }
+
         public async Task CustomizeCookieAsync()
         {
             await CustomizeButton.ClickAsync();

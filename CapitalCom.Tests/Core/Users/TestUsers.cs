@@ -2,10 +2,14 @@
 {
     public static class TestUsers
     {
-        public static readonly TestUser QaUser = new()
+        public static TestUser QaUser => new()
         {
-            Email = "cefeke8701@fisedo.com",
-            Password = "2usPz@3Cf#rdzKs"
+            Email = GetRequiredEnvironmentVariable("CAPITAL_QA_USER_EMAIL"),
+            Password = GetRequiredEnvironmentVariable("CAPITAL_QA_USER_PASSWORD")
         };
+
+        private static string GetRequiredEnvironmentVariable(string name) =>
+            Environment.GetEnvironmentVariable(name)
+            ?? throw new InvalidOperationException($"Environment variable '{name}' is required to generate the authorized storage state.");
     }
 }

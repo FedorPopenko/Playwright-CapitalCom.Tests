@@ -7,7 +7,7 @@ namespace CapitalCom.Tests;
 
 [Parallelizable(ParallelScope.All)]
 [FixtureLifeCycle(LifeCycle.InstancePerTestCase)]
-public class IsCapitalComSafePageTests : CapitalTestBase
+public class IsCapitalComSafeTests : CapitalTestBase
 {
     [SetUpFixture]
     public sealed class TestRunCleanup

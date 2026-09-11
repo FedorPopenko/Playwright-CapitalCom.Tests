@@ -30,6 +30,8 @@ public class GenerateStorageStatesTests : PageTest
     }
 
     [Test]
+    [Explicit("Run this test explicitly to refresh .auth/authorized-user.json.")]
+    [NonParallelizable]
     public async Task SaveAuthorizedUserStorageStateAsync()
     {
         await Page.GotoAsync(TestSettings.BaseUrl);
@@ -37,18 +39,39 @@ public class GenerateStorageStatesTests : PageTest
         var loginForm = new LoginAndSignUpForm(Page);
         var cookieForm = new CookieForm(Page);
 
-        await cookieForm.AcceptCookieAsync();
+        await cookieForm.AcceptIfDisplayedAsync();
 
         await loginForm.LoginAsync(TestUsers.QaUser);
-        await Assertions.Expect(Page).ToHaveURLAsync(new Regex(CapitalPagePath.TradingPlatform));
 
-        await Context.StorageStateAsync(new()
+        await Assertions.Expect(loginForm.LoginFormCloseButton).ToBeHiddenAsync(new()
         {
-            Path = StorageStatePaths.Authorized
+            Timeout = 120_000
         });
+
+        var candidateStatePath = Path.Combine(StorageStatePaths.AuthDirectory, "authorized-user.candidate.json");
+
+        try
+        {
+            await Context.StorageStateAsync(new()
+            {
+                Path = candidateStatePath
+            });
+
+            AuthorizedStorageStateValidator.EnsureUsable(candidateStatePath);
+            File.Move(candidateStatePath, StorageStatePaths.Authorized, overwrite: true);
+        }
+        finally
+        {
+            if (File.Exists(candidateStatePath))
+            {
+                File.Delete(candidateStatePath);
+            }
+        }
     }
 
     [Test]
+    [Explicit("Run this test explicitly to refresh .auth/unauthorized-user.json.")]
+    [NonParallelizable]
     public async Task SaveUnauthorizedUserStorageStateAsync()
     {
         await Page.GotoAsync(TestSettings.BaseUrl);
@@ -56,7 +79,7 @@ public class GenerateStorageStatesTests : PageTest
         var cookieForm = new CookieForm(Page);
         var locationForm = new LocationForm(Page);
 
-        await cookieForm.AcceptCookieAsync();
+        await cookieForm.AcceptIfDisplayedAsync();
         await Assertions.Expect(cookieForm.CookieBanner).ToBeHiddenAsync();
 
         await locationForm.CloseIfDisplayedAsync();

@@ -10,8 +10,14 @@ public static class StorageStateProvider
         {
             UserSessionState.Unregistered => null,
             UserSessionState.Unauthorized => StorageStatePaths.Unauthorized,
-            UserSessionState.Authorized => StorageStatePaths.Authorized,
+            UserSessionState.Authorized => GetAuthorizedStorageStatePath(),
             _ => throw new ArgumentOutOfRangeException(nameof(userSessionState), userSessionState, null)
         };
+    }
+
+    private static string GetAuthorizedStorageStatePath()
+    {
+        AuthorizedStorageStateValidator.EnsureUsable(StorageStatePaths.Authorized);
+        return StorageStatePaths.Authorized;
     }
 }

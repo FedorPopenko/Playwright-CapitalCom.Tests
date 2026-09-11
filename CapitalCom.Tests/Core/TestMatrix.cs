@@ -53,7 +53,9 @@ public static class TestMatrix
         };
 
         foreach (var userState in userStates)
-            foreach (var route in CapitalRouteRegistry.GetSupportedRoutes())
+            foreach (var route in CapitalRouteRegistry.GetSupportedRoutes()
+                .Select(x => (x.License, x.Country))
+                .Distinct())
             {
                 yield return new TestRunContext(userState, route.License, CapitalLanguage.En, route.Country);
             }
