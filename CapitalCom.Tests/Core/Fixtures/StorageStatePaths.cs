@@ -25,7 +25,7 @@ namespace CapitalCom.Tests.Core.Fixtures
 
             if (directory is null)
             {
-                throw new DirectoryNotFoundException("Solution directoru was not found");
+                throw new DirectoryNotFoundException("Solution directory was not found");
             }
 
             return directory;

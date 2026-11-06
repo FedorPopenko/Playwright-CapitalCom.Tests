@@ -2,7 +2,7 @@ using CapitalCom.Tests.Core;
 using CapitalCom.Tests.Core.Models;
 using System.Text.RegularExpressions;
 
-namespace CapitalCom.Tests.Tests;
+namespace CapitalCom.Tests.Tests.AboutTests;
 
 [Parallelizable(ParallelScope.All)]
 [FixtureLifeCycle(LifeCycle.InstancePerTestCase)]

@@ -77,6 +77,14 @@ public abstract class CapitalTestBase : PageTest
         }
     }
 
+    protected static Task ExpectQrCodeResultAsync(string actualQrUrl)
+    {
+        Assert.That(actualQrUrl, Is.EqualTo(TestSettings.ExpectedQrUrl),
+            $"Expected URL: {TestSettings.ExpectedQrUrl}? but actual URL: {actualQrUrl}");
+
+        return Task.CompletedTask;
+    }
+
     protected static async Task CloseLocationFormIfDisplayedAsync(LocationForm locationForm)
     {
 

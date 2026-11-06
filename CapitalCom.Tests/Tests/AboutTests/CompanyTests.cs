@@ -3,7 +3,7 @@ using CapitalCom.Tests.Core.Artifacts;
 using CapitalCom.Tests.Core.Models;
 using CapitalCom.Tests.Pages.About.Who_We_Are;
 
-namespace CapitalCom.Tests;
+namespace CapitalCom.Tests.Tests.AboutTests;
 
 [Parallelizable(ParallelScope.All)]
 [FixtureLifeCycle(LifeCycle.InstancePerTestCase)]
