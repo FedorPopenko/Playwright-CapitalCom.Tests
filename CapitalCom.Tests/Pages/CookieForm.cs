@@ -33,10 +33,21 @@ namespace CapitalCom.Tests.Pages
 
         public async Task AcceptIfDisplayedAsync()
         {
-            if (await AcceptButton.IsVisibleAsync())
+            try
             {
+                await AcceptButton.WaitForAsync(new()
+                {
+                    State = WaitForSelectorState.Visible,
+                    Timeout = 5000
+                });
+
                 await AcceptButton.ClickAsync();
             }
+            catch (TimeoutException)
+            {
+                //Cookie Form is not displayed!
+            }
+
         }
 
         public async Task CustomizeCookieAsync()

@@ -15,7 +15,6 @@ public class CompanyTests : CapitalTestBase
         [OneTimeTearDown]
         public void Cleanup()
         {
-            TestContext.Out.WriteLine("Cleanup started");
             ArtifactClaener.DeletePassedVideos();
         }
     }

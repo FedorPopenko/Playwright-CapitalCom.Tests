@@ -15,7 +15,6 @@ public class MobileAppTests : CapitalTestBase
         [OneTimeTearDown]
         public void Cleanup()
         {
-            TestContext.Out.WriteLine("Cleanup started");
             ArtifactClaener.DeletePassedVideos();
         }
     }
